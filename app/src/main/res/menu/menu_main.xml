@@ -7,4 +7,21 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_display"
+        android:orderInCategory="101"
+        android:title="@string/action_display"
+        app:showAsAction="never"
+        android:onClick="sendMethod"/>
+    <item
+        android:id="@+id/action_massage"
+        android:orderInCategory="102"
+        android:title="@string/action_massage"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_image_change"
+        android:orderInCategory="103"
+        android:title="@string/action_image_change"
+        android:onClick="actionImageChangeHandler"
+        app:showAsAction="never" />
 </menu>
